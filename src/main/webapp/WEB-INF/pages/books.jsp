@@ -67,7 +67,7 @@
         <c:forEach items="${listBooks}" var="book">
             <tr>
                 <td>${book.id}</td>
-                <td><a href="/bookdata/${book.id}" target="_blank">${book.bookTitle}</a></td>
+                <td><a href="/bookdata/${book.id}">${book.bookTitle}</a></td>
                 <td>${book.bookAuthor}</td>
                 <td>${book.price/100}${book.price%100}</td>
                 <td><a href="<c:url value='/edit/${book.id}'/>">Edit</a></td>

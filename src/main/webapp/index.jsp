@@ -7,7 +7,7 @@
 <body>
 <h3>Proselyte presents</h3>
 <br/>
-<a href="<c:url value="/books"/>" target="_blank">Books list</a>
+<a href="<c:url value="/books"/>">Books list</a>
 <br/>
 </body>
 </html>
